@@ -1,0 +1,87 @@
+.statusBar{
+    background-color: white;
+    width: 70vh;
+    height:10vh;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    position: relative;
+    top: 5vh;
+    left: 46vh;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.outerPaidTag{
+    display: flex;
+    flex-direction: row;
+}
+ 
+.PaidTag{
+    display: flex;
+    flex-direction: column;
+    background-color: #48C446;
+    padding: 1vh;
+    margin-right: 0.5rem;
+    color: white;
+    width: 10vh;
+    border-radius: 5px;
+    text-align: initial;
+}
+.PendingTag{
+    display: flex;
+    flex-direction: column;
+    background-color: #BDBDBD;
+    padding: 1vh;
+    margin-right: 0.5rem;
+    color: white;
+    width: 15vh;
+    border-radius: 5px;
+    text-align: initial;
+}
+.OverDueTag{
+    display: flex;
+    flex-direction: column;
+    background-color: #EC615B;
+    padding: 1vh;
+    margin-right: 0.5rem;
+    color: white;
+    width: 20vh;
+    border-radius: 5px;
+    text-align: initial;
+}
+.tagsName{
+    font-size: 0.5rem;
+}
+@media screen and (max-width: 1205px){
+    .statusBar{
+        left: 10vh; 
+    } 
+}
+@media screen and (max-width: 874px){
+    .statusBar{
+        left: 2vh; 
+        flex-direction: column;
+        width: 60%;
+        height: 27vh;
+
+    } 
+    .outerPaidTag{
+    flex-direction: column;
+    width: 100%;
+    }
+    .PaidTag{
+        width:90%;
+        margin-bottom: 1vh;
+    }
+    .PendingTag{
+         width:90%;
+        margin-bottom: 1vh;
+    }
+    .OverDueTag{
+        width:90%;
+        margin-bottom: 1vh;
+    }
+}

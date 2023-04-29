@@ -1,0 +1,81 @@
+.Client_Sec{
+    display: flex;
+    flex-direction: column;
+    text-align: initial;
+    margin-left: 2vh;
+}
+.Search_Bar{
+    height: 7vh;
+    width: 40vh;
+    padding-left: 2vh;
+    background-color: #F1F1F1;
+    border: 0px;
+    border-radius: 10px;
+    color: #979797;
+    font-size: 1em;
+    font-family: 'DM Sans';
+    margin-right: 2vh
+}
+.Client_search_btn{
+    height: 7vh;
+    width: 20vh;
+    background-color: black;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    transition: 0.3s linear;
+}
+.Client_search_btn:hover{
+    background-color: rgb(32 41 107);
+   
+}
+.Client_sec_list_Logo{
+    background-image: url('../Rectangle\ 23.png');
+    background-repeat: no-repeat;
+    height: 8vh;
+    width: 9vh;
+    align-self: center;
+}
+.List_logo_container{
+    display: flex;
+    height: 10vh;
+}
+.clinet_name{
+    align-self: center;
+}
+.Client_table{
+    width: 90%;
+}
+.Client_list_heading{
+    text-align: initial;
+    color: #979797;
+    border-bottom: 0.5px solid #E4E4E4;
+}
+ 
+.heading_clint_list{
+     height: 11vh;
+}   
+.List_Item_container{
+    height: 10vh;
+}
+.list_items_decor{
+    border-bottom: 0.5px solid #E4E4E4;
+}
+.editBtn{
+    height: 6vh;
+    width: 11vh;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 1em;
+}
+.editBtn:hover{
+    background-color: rgb(32 41 107);
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+@media screen and (max-width: 623px){
+    .Client_Sec{
+     margin-left: 0vh;
+    }
+     
+  }

@@ -1,0 +1,9 @@
+.header{
+    background-image:url('../Rectangle\ 30.png');
+    height: 20vh;
+}
+@media screen and (max-width: 874px){
+    .header{
+    height: 40vh;
+    }
+}

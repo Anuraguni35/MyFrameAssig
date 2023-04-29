@@ -1,0 +1,33 @@
+.avtar{
+    background-color: white;
+    width: 35vh;
+    height:10vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    position: absolute;
+    right: 7vh;
+    top: 5vh;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.AvtarPic{
+    background-image: url("../Ellipse\ 1.png");
+    background-repeat: no-repeat;
+    height: 8vh;
+    width: 9vh;
+}
+.avtarName{
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+@media screen and (max-width: 1205px){
+    .avtarName{
+        display: none;
+    }
+    .avtar{
+        width: 7vh;
+    }
+}
